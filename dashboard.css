@@ -1,0 +1,62 @@
+/* Strata: soft raised surfaces, inset controls, readable data. */
+:root{--surface:#E9EEF4;--ink:#26354D;--muted:#5D6B80;--violet:#7060D9;--raised:8px 8px 20px #CED6E1,-8px -8px 20px #FFF;--inset:inset 3px 3px 7px #CBD4E0,inset -3px -3px 7px #FFF}
+.stApp{background:var(--surface);color:var(--ink)}
+[data-testid="stHeader"]{background:transparent}
+[data-testid="stAppDeployButton"],.stAppDeployButton{display:none}
+[data-testid="stMainBlockContainer"]{max-width:1580px;padding:2.2rem 2.7rem 1rem}
+[data-testid="stSidebar"]{background:var(--surface);border-right:1px solid #DEE5EE;min-width:265px;max-width:265px}
+[data-testid="stSidebarUserContent"]{padding:2.2rem 1.35rem}
+.brand-name{font-size:31px;font-weight:750;letter-spacing:-1.7px;line-height:1.25;color:#30394D}
+.brand-name span{font-size:9px;vertical-align:top;letter-spacing:0;margin-left:4px}
+.brand-note{font-size:8px;font-weight:650;letter-spacing:1.2px;color:var(--muted);white-space:nowrap}
+.rail-label{font-size:9px;font-weight:700;letter-spacing:1.5px;color:#67758A;margin:30px 0 14px}
+.rail-note{padding:20px 17px;margin-top:19px;border-radius:17px;box-shadow:var(--inset);font-size:12px;font-weight:650;line-height:1.8}
+.rail-note small{font-size:11px;color:var(--muted);font-weight:400}
+.rail-steps{font-size:12px;line-height:2.5;color:var(--muted)}
+.rail-footer{margin-top:42px;border-top:1px solid #D6DDE7;padding-top:18px;font-size:9px;letter-spacing:.5px;line-height:1.9;color:#657288}
+[data-testid="stSidebar"] [data-testid="stButton"] button{justify-content:flex-start;border:0;border-radius:12px;font-size:12px;padding:12px 16px;box-shadow:4px 4px 10px #D0D8E3,-4px -4px 10px #FFF;background:var(--surface);color:#4E5D74;margin-bottom:6px}
+[data-testid="stSidebar"] [data-testid="stButton"] button[kind="primary"]{box-shadow:var(--inset);color:#6753C8;font-weight:650}
+.eyebrow{font-size:10px;font-weight:650;letter-spacing:1.7px;color:#7060BA;margin-bottom:9px}
+.page-title{font-size:34px;font-weight:700;letter-spacing:-1.3px;line-height:1.25;margin:0 0 10px;color:#28354A}
+.page-subtitle{font-size:13px;color:var(--muted);margin:0 0 8px;line-height:1.7;max-width:720px}
+.top-chip{float:right;border-radius:24px;padding:11px 13px;box-shadow:var(--inset);font-size:8px;letter-spacing:.65px;font-weight:650;color:#5B6278;white-space:nowrap}
+.chip-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#56A99C;margin-right:8px;vertical-align:middle}
+.context-banner{padding:15px 20px;margin:8px 0 6px;box-shadow:var(--inset);border-radius:14px;font-size:11px;color:var(--muted);line-height:1.7}
+.context-banner strong{font-size:10px;letter-spacing:1px;color:#6D5ACE;display:inline-block;margin-right:18px}
+.metric-card{border-radius:20px;box-shadow:var(--raised);padding:23px 22px;min-height:144px;background:var(--surface)}
+.metric-top{font-size:9px;font-weight:700;letter-spacing:1px;color:#5E6D81}
+.metric-value{font-size:35px;font-weight:700;letter-spacing:-1.2px;line-height:1.7;color:var(--ink)}
+.metric-foot{font-size:10px;color:#5D6B80;line-height:1.5}
+.section-title{font-size:15px;font-weight:650;color:#28374D;letter-spacing:-.2px;margin-bottom:6px}
+.section-note{font-size:11px;color:var(--muted);line-height:1.6;margin-bottom:14px}
+.st-key-department_card,.st-key-risk_card,.st-key-priority_card,.st-key-role_card,.st-key-location_card,.st-key-adoption_card,.st-key-skills_card,.st-key-profile_form,.st-key-profile_result,.st-key-weights_card,.st-key-ranking_card,.st-key-learning_plan{border-radius:22px;box-shadow:var(--raised);padding:23px;background:var(--surface)}
+.risk-legend{display:flex;justify-content:space-between;gap:12px;font-size:11px;margin:10px 0 4px}
+.risk-legend div{flex:1}.risk-legend i{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:6px}.risk-legend b{display:block;margin:8px 0 0 13px;font-size:12px;color:var(--ink)}
+.prediction-card{padding:24px 20px;border-radius:16px;box-shadow:var(--inset);margin-bottom:18px}
+.prediction-label{font-size:42px;font-weight:700;letter-spacing:-1px;line-height:1.6}
+.prediction-detail{font-size:11px;color:var(--muted)}
+.score-row{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-bottom:5px}
+.score-row b{color:#39475D;font-weight:600}
+.score-track{height:7px;border-radius:7px;box-shadow:var(--inset);margin-bottom:15px;overflow:hidden}
+.score-track div{height:100%;border-radius:7px}
+.pathway{box-shadow:var(--raised);border-radius:20px;padding:24px;min-height:245px;margin:8px 0 20px}
+.pathway-tag{font-size:8px;color:#675AC3;font-weight:700;letter-spacing:1px;margin-bottom:16px}
+.pathway-role{font-size:18px;font-weight:650;letter-spacing:-.4px;color:var(--ink);min-height:48px}
+.match-score{font-size:31px;color:#6E5CD0;font-weight:700;line-height:1.65}.match-score small{font-size:12px;margin-left:4px;color:var(--muted)}
+.pathway-detail{font-size:11px;line-height:1.9;color:var(--muted)}.pathway-detail b{font-weight:600;color:#33435B}
+.plan-step{padding:22px;border-radius:16px;box-shadow:var(--inset);min-height:175px;margin:8px 0}
+.plan-step .number{font-size:9px;font-weight:700;color:#7866D4;letter-spacing:1px}
+.plan-step h4{font-size:14px;margin:12px 0 10px;line-height:1.5}
+.plan-step p{font-size:12px;color:var(--muted);line-height:1.8;margin:0}
+.footer{display:flex;justify-content:space-between;border-top:1px solid #D5DDE7;margin-top:32px;padding:20px 0;gap:12px;color:#64728A;font-size:10px}
+[data-testid="stWidgetLabel"] p{font-size:11px;color:#536177;font-weight:600}
+[data-testid="stCaptionContainer"] p{font-size:11px;color:#5D6B80;line-height:1.7}
+[data-baseweb="select"]>div,[data-testid="stNumberInputContainer"],[data-testid="stTextInputRootElement"]{background:var(--surface);border:1px solid #DCE3EC!important;border-radius:11px;box-shadow:var(--inset)}
+[data-testid="stForm"]{border:0;padding:0}
+[data-testid="stButton"] button,[data-testid="stDownloadButton"] button{border:0;border-radius:11px;box-shadow:4px 4px 10px #D0D8E3,-4px -4px 10px #FFF;background:var(--surface);color:#596779}
+button[kind="primary"],[data-testid="stFormSubmitButton"] button{background:#7868D9!important;border:0!important;border-radius:11px;color:#FFF!important;box-shadow:4px 4px 10px #BFC5D8,-4px -4px 10px #FFF}
+[data-testid="stSidebar"] button[kind="primary"]{background:var(--surface)!important;color:#6753C8!important}
+[data-testid="stExpander"]{border:1px solid #D5DDE8;border-radius:14px;background:transparent}
+[data-testid="stDataFrame"]{border-radius:12px;overflow:hidden}
+@media(max-width:1100px){.page-title{font-size:29px}.top-chip{font-size:7px;padding:10px}.metric-card{padding:18px 15px}.metric-top{font-size:8px}}
+@media(max-width:900px){[data-testid="stMainBlockContainer"]{padding:3.8rem 1.2rem 1rem}.page-title{font-size:27px}.metric-card{min-height:125px}.footer{flex-direction:column}.st-key-department_card,.st-key-risk_card,.st-key-profile_form,.st-key-profile_result,.st-key-learning_plan{padding:17px}.top-chip{float:none;display:inline-block}}

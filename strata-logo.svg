@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="80" viewBox="0 0 280 80">
+  <defs><linearGradient id="v" x2="1" y2="1"><stop stop-color="#A398F4"/><stop offset="1" stop-color="#6451C8"/></linearGradient></defs>
+  <path d="M12 22 36 10 60 22 36 34Z" fill="url(#v)"/><path d="m12 22 24 12 24-12v8L36 42 12 30Z" fill="#6554C2"/>
+  <path d="m12 35 24 12 24-12v11L36 58 12 46Z" fill="#7A69D6"/><path d="m12 50 24 12 24-12v8L36 70 12 58Z" fill="#4D8B97"/>
+  <text x="82" y="55" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="50" letter-spacing="-2" fill="#30394D">strata</text>
+</svg>
